@@ -4079,7 +4079,6 @@ LIBGRPC_SRC = \
     src/core/tsi/ssl_transport_security.c \
     src/core/tsi/transport_security.c \
     src/core/census/grpc_context.c \
-    src/core/census/grpc_filter.c \
     src/core/channel/channel_args.c \
     src/core/channel/channel_stack.c \
     src/core/channel/client_channel.c \
@@ -4353,7 +4352,6 @@ endif
 LIBGRPC_UNSECURE_SRC = \
     src/core/surface/init_unsecure.c \
     src/core/census/grpc_context.c \
-    src/core/census/grpc_filter.c \
     src/core/channel/channel_args.c \
     src/core/channel/channel_stack.c \
     src/core/channel/client_channel.c \
